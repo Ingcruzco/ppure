@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.container_home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../assets/background-purpe.png');
+    background-repeat: no-repeat;
+    background-size:100vw 70vh;
+}
+h1 {
+    font-family: 'Ephesis', cursive;
+}

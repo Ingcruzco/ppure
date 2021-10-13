@@ -4,11 +4,11 @@ import '../styles/carousel.css'
 const CarouselPage = () => {
 
     return (
-        <div >
-            <Carousel variant="dark" className="container_carousel">
+        <div className="container_carousel">
+            {/* <Carousel variant="dark" >
                 <Carousel.Item interval={6000}>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 h-100"
                     src="/assets/Logo-ppure.png"
                     alt="Pesto-pepure"
       
@@ -38,7 +38,7 @@ const CarouselPage = () => {
 
                     />
                 </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
 
         </div>
           

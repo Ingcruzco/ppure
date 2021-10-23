@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+img{
+    max-height: 332px;
+    width: auto;
+}
+
+.container-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p_buttom{
+    align-self: flex-end;
+    font-family: 'Oswald', sans-serif;
+    color: #AFC34C;
+    font-size: 2em;
+}
+.p_top{
+    align-self: flex-start;
+    font-family: 'Oswald', sans-serif;
+    color: #AFC34C;
+    font-size: 2em;
+}

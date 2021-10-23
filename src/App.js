@@ -6,18 +6,18 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
-import Tecnology from './pages/Tecnology';
+import './App.css';
+import Products from './pages/Products';
 
 function App() {
   return (
     <Router>
       <Navigation/>
-      <div>
+      <div className="app_container">
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/tecnologia" component={Tecnology}/>
+          <Route path="/productos" exact component={Products}/>
         </Switch>
         
       </div>
